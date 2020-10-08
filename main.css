@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #ffd301;
+}
+
+@font-face {
+    font-family: 'super_mario_maker_extendedRg';
+    src: url('super-mario-maker-extended-webfont.woff2') format('woff2'), url('super-mario-maker-extended-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    font-family: 'super_mario_maker_extendedRg', Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 450%;
+    text-align: center;
+    width: 100%;
+    margin: 20px;
+}
+
+div {
+    font-family: 'super_mario_maker_extendedRg', Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin: 0;
+    padding: 0;
+}
+
+.container div {
+    height: 14vw;
+    margin: 0 5px 5px 0;
+}
+
+.cell {
+    background-color: #ffe9b7;
+    position: relative;
+}
+
+.cell:hover {
+    background-color: #eed8a6;
+}
+.cell:hover[cellselected] {
+    background-color: #990000;
+}
+
+.center {
+    background-color: #ffffff;
+    position: relative;
+}
+.center:hover {
+    background-color: #dddddd;
+}
+
+[cellselected] {
+    background-color: #990000;
+}
+
+.cell p, .center p {
+    pointer-events: none;
+    background-color: rgba(255, 0, 0, 0);
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.attribution {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: left;
+    font-size: x-small;
+    margin: 10px;
+}
