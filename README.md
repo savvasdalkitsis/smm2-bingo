@@ -8,4 +8,4 @@ Inspired by #DGRs Youtube video https://www.youtube.com/watch?v=iI-OLOuRn5w whic
 
 Raise a PR to modify this file: https://github.com/savvasdalkitsis/smm2-bingo/blob/main/main.js
 
-![preview](assets/preview.png)
+![preview](assets/preview.png).  
